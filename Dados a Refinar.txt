@@ -1,0 +1,13 @@
+faturamento por ano / faturamento total
+lucro por ano. / lucro total 
+quantidade de vendas por ano / total de vendas
+qtd de formas de pagamento por ano/ total de formas de pagamentos.
+faturamento por vendedor
+
+meta de faturamento do ano = 30% total de vendas do ano anterior
+
+
+
+
+
+
