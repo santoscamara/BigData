@@ -70,19 +70,31 @@ O script lê `Planilha final.xlsx` e gera `Projeto_Big_Data.xlsx` e `Projecao.xl
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Autores
 
-<p align="center">
-  <img src="https://github.com/iggorhenri-tech.png" width="100px;" alt="Igor H." style="border-radius: 50%; border: 2px solid #5d2f8e;"/>
-  <br />
-  <sub><b>Igor H.</b></sub>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/igor-henrique-26b149218/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-  <a href="mailto:iggorhenri@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/iggorhenri-tech.png" width="100px;" alt="Igor H." style="border-radius: 50%; border: 2px solid #5d2f8e;"/>
+      <br />
+      <sub><b>Igor H.</b></sub>
+      <br /><br />
+      <a href="https://www.linkedin.com/in/igor-henrique-26b149218/" target="_blank">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+      </a>
+      <br />
+      <a href="mailto:iggorhenri@gmail.com">
+        <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+      </a>
+    </td>
+    <td align="center">
+      <img src="https://github.com/santoscamara.png" width="100px;" alt="santoscamara" style="border-radius: 50%; border: 2px solid #5d2f8e;"/>
+      <br />
+      <sub><b>santoscamara</b></sub>
+      <br /><br />
+      <a href="https://github.com/santoscamara" target="_blank">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+      </a>
+    </td>
+  </tr>
+</table>
