@@ -41,7 +41,6 @@ meta_faturamento['Porcentagem_Bruta'] = round((meta_faturamento['Total_Vendas'] 
 meta_faturamento['Porcentagem_Liquida'] = round((meta_faturamento['Total_Vendas_Liquido'] / meta_faturamento['Meta_Ano']) * 100, 2)
 
 
-df = df.drop(columns=['Taxa_Cartao', 'Valor_Total', 'Valor_UnitarioXQtd'], errors='ignore')
 df = pd.merge(df, meta_faturamento[['Ano', 'Meta_Ano', 'Porcentagem_Bruta', 'Porcentagem_Liquida']], on='Ano', how='left')
 
 # ORGANIZAÇÃO E EXPORTAÇÃO FINAL
@@ -71,8 +70,8 @@ corte = pd.Timestamp('2026-08-31')
 ref = df_projecao[(df_projecao['Data'] >= '2025-01-01') & (df_projecao['Data'] <= corte)]
 margem = ref['Lucro_Liquido_Real'].sum() / ref['Valor_Venda'].sum()
 
-ano26 = df[(df_projecao['Data'] >= '2026-01-01') & (df_projecao['Data'] <= corte)]['Valor_Venda'].sum()
-ano25 = df[(df_projecao['Data'] >= '2025-01-01') & (df_projecao['Data'] <= '2025-08-31')]['Valor_Venda'].sum()
+ano26 = df_projecao[(df_projecao['Data'] >= '2026-01-01') & (df_projecao['Data'] <= corte)]['Valor_Venda'].sum()
+ano25 = df_projecao[(df_projecao['Data'] >= '2025-01-01') & (df_projecao['Data'] <= '2025-08-31')]['Valor_Venda'].sum()
 cresc_2026 = ano26 / ano25 - 1
 cresc_2027 = 0.05
 aliquota = 0.28
